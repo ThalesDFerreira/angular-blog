@@ -13,4 +13,6 @@ export class BigCardComponent {
   cardTitle: string = ''
   @Input()
   cardDescription: string = ''
+  @Input()
+  link: string = ''
 }
